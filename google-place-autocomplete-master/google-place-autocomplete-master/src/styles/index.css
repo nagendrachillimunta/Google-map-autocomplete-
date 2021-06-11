@@ -1,0 +1,23 @@
+.map {
+  height: 100%;
+}
+#map #infowindow-content {
+  display: inline;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.autoComplete {
+  margin-bottom: 30px;
+}
+@media (max-width: 900px) {
+  .autoComplete {
+    top: 61px;
+    width: 78vw;
+    left: 0;
+    padding-left: 10px;
+  }
+}
